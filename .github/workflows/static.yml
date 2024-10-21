@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a:link, a:visited {
+  
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<h2>Follow us on:</h2>
+
+<button class="button"><a href="https://www.instagram.com/patanjalirishikul/" target="_blank">Instagram</a></button><br><br>
+<button class="button"><a href="https://www.youtube.com/channel/UC5s4l6B_NTbklV5Dzf5rgww" target="_blank">Youtube</a></button><br><br>
+<button class="button"><a href="https://www.facebook.com/PatanjaliRishikul.in" target="_blank">Facebook</a></button><br><br>
+<button class="button"><a href="https://twitter.com/prishi_official" target="_blank">X (Twitter)</a></button>
+
+</body>
+</html>
